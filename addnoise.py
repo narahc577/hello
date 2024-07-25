@@ -5,8 +5,8 @@ import numpy as np
 img = cv2.imread('image1.png', 0)
 
 # Set the probabilities for salt and pepper noise
-salt_prob = 0.1 # Adjust this to change the amount of salt noise
-pepper_prob = 0.1  # Adjust this to change the amount of pepper noise
+salt_prob = 0.25# Adjust this to change the amount of salt noise
+pepper_prob = 0.25  # Adjust this to change the amount of pepper noise
 
 # Create a copy of the image to add noise to
 noisy_img = img.copy()
